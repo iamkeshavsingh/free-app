@@ -1,0 +1,69 @@
+/* Add these styles to your CSS file */
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Specify your preferred font-family */
+  }
+  
+  #recommend-main-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .video-card-div {
+    background-color: #222;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-card-div:hover {
+    background-color: #333;
+  }
+  
+  .video-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .video-time {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .video-ch-ttl-div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .channel-img {
+    width: 30px; /* Specify the desired width */
+    height: 30px; /* Specify the desired height */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .video-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .channel-name {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .video-des {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #aaa;
+  }
+  
